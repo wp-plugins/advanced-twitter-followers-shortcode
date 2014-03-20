@@ -1,0 +1,173 @@
+.clr{
+	clear: both;
+}
+#twitterWidget{
+	margin: 0px;
+}
+#twitterWidget #likebox{
+	padding: 5px;
+	margin: 0 auto;
+}
+
+#twitterWidget #likebox .findus{
+	padding: 5px;
+	color: #333333;
+	font-family: arial,sans-serif;
+	font-size: 12px;
+}
+
+#twitterWidget #likebox .floatelement,#twitterWidget #likebox .floatelement2{
+	padding: 10px;
+}
+
+#twitterWidget #likebox .thumb-img{
+	margin-right: 6px;
+	float: left;
+}
+#twitterWidget #likebox .right-text{
+	float: left;
+}
+#twitterWidget #likebox .right-text .title{
+	margin: 0px 0px 6px;
+	color: #33ccff;
+}
+
+/*floatelement2*/
+#twitterWidget #likebox .floatelement2 {
+	
+}
+#twitterWidget #likebox .floatelement2 .thumb-img{
+	margin-right: 6px;
+	float: left;
+}
+#twitterWidget #likebox .floatelement2 .right-text{
+	float: left;
+	width: 76%;
+	margin-left: 4px;
+}
+#twitterWidget #likebox .floatelement2 .right-text .title{
+	margin: 0px 0px 6px;
+	color: #33ccff;
+	font-size: 16px;
+}
+#twitterWidget #likebox .floatelement2 .right-text .mobile-apps{
+	background: #f7f7f7;
+	border: 1px solid #e3e3e3;
+	padding: 10px;
+}
+#twitterWidget #likebox .floatelement2 .right-text .mobile-apps p span{
+	color: #33ccff;
+}
+#twitterWidget #likebox .floatelement2 .right-text .mobile-apps p{
+	color: #929296;
+}
+
+
+#twitterWidget #likebox .imagelisting p{
+	font-size: 11px;
+	margin: 5px;
+	padding: 5px;
+	border-top: 1px solid #d8dfea;
+}
+#twitterWidget #likebox .imagelisting p span{
+	color: #33ccff;
+}
+#twitterWidget #likebox .imagelisting .icon{
+	background: url(icon.png)left 8px no-repeat;
+	color: #aaaaaa;
+	padding-left: 16px;
+}
+
+#twitterWidget #likebox ul {
+	margin: 0;
+	padding: 10px;
+	padding-top: 0;
+}
+
+#twitterWidget #likebox ul li{
+	list-style: none;
+	float: left;
+	margin-right: 3px;
+}
+
+.scrollbar{
+	float: left;
+	height: 480px;
+	width: auto;
+	overflow-y: scroll;
+	margin-top: 6px;
+}
+
+.force-overflow
+{
+	min-height: 450px;
+}
+
+
+
+#style-3::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar-thumb
+{
+	background-color: #33ccff;
+}
+/*icon in CSS*/
+
+	.floatelement .follow-btn:hover{
+		border-color: #bbb;
+		background-color: #d9d9d9;
+		background-image: -webkit-linear-gradient(#f8f8f8,#d9d9d9);
+		background-image: linear-gradient(#f8f8f8,#d9d9d9);
+		box-shadow: none;
+	}
+	.floatelement .follow-btn{
+		position: relative;
+		height: 18px;
+		font-weight: bold;
+		color: #333;
+		text-decoration: none;
+		text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+		white-space: nowrap;
+		vertical-align: top;
+		background-color: white;
+		background-image: -moz-linear-gradient(top,#ffffff,#dedede);
+		background-image: -webkit-gradient(linear,left top,left bottom,from(#ffffff),to(#dedede));
+		background-image: -ms-linear-gradient(top,#ffffff,#dedede);
+		background-image: linear-gradient(top,#ffffff,#dedede);
+		background-image: -o-linear-gradient(top,#ffffff,#dedede);
+		border: #CCC solid 1px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		outline: none;
+		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff',endColorstr='#dedede');
+		font-size: 11px;
+		line-height: 1.7 ;
+		padding: 1px 4px 1px 19px;
+	}
+	.follow-btn span{
+		position: absolute;
+		top: 1px;
+		left: 1px;
+		width: 16px;
+		height: 16px;
+		background: transparent url(icon.png) 1px 2px no-repeat;
+	}
+	
+@media(max-width: 380px){
+	#likebox{
+		width: 100% !important;
+	}
+}
+
+
