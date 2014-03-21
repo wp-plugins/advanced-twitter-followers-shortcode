@@ -6,7 +6,7 @@
 Plugin Name: Advanced Twitter Followers Shortcode
 Plugin URI: http://www.sparxseo.com
 Description: Advanced Twitter Followers Shortcode for Wordpress.Advanced Twitter Followers Shortcode is an advanced Wordpress Twitter Followers Display widget which allow to customized in lots of way. You can add or remove options as well change color of background. No of Twitter followers to display and lots of. So Hope you will enjoy our this free wordpress shortcode :) .
-Version: 1.0
+Version: 1.1
 Author: Alan Ferdinand
 Author URI: http://www.sparxseo.com
 */
@@ -39,7 +39,7 @@ add_shortcode('advancedTwitterFollowers', 'advancedTwitterFollowersShortcode');
         'image_border' => '2',
  		'image_border_color' => '#ccc',
  		'footer' => '#true',
-		'author' => 'true'
+		'author' => 'false'
  	), $atts);
 	print_r($atts);
  	extract($atts);
