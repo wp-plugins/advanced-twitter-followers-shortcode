@@ -46,3 +46,6 @@ Check the documentation folder. or go here - http://sparxseo.com/documentation/a
 
 = 1.0 =
 Stable version release - 12th March 2014
+
+= 1.1 =
+simple bug fixes
