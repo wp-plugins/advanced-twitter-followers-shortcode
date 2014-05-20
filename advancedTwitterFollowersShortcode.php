@@ -124,7 +124,7 @@ $data .= "</div>
 		</div>
 	</div>";
 	if($author == "true"){
-	$data .= "<div style='font-size: 9px; color: #808080; font-weight: normal; font-family: tahoma,verdana,arial,sans-serif; line-height: 1.28; text-align: right; direction: ltr;'><a href='http://www.liveherechicago.com/search-listing-edgewater.php' target='_blank' style='color: #808080;' title='more information...'>Apartments Edgewater Chicago</a></div>";}
+	$data .= "<div style='font-size: 9px; color: #808080; font-weight: normal; font-family: tahoma,verdana,arial,sans-serif; line-height: 1.28; text-align: right; direction: ltr;'><a href='http://www.liveherechicago.com/search-listing-lakeview.php' target='_blank' style='color: #808080;' title='more information'>Lakeview Apartments</a></div>";}
         }
  	return $data;
  }
